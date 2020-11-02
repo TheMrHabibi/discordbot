@@ -87,4 +87,4 @@ client.on("guildMemberAdd", function(member) {
   messageToChannel.send(`Newcomers! Welcome, <@${ member.id }>`)
 })
 
-client.login("NzcxODUxNzY3NDE5MTA5Mzk3.X5yI-Q.ultBI2xChrH-7XsvW__lTV6jVmk")
+client.login(process.env.BOT_TOKEN)
